@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#selectForm {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+#selectBtn {
+    width: 15%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+b {
+    font-size: larger;
+    margin-right: 10px;
+    width: 30%;
+}
+
+select {
+    /* width: 40%; */
+    padding: 5px;
+    margin: 5px;
+}
+
+#chouseForm {
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    /* display: none; */
+}
+
+#topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topicText {
+    width: 85%;
+    padding: 5px;
+}
+
+.rowTitle {
+    display: flex;
+    font-size: larger;
+    margin-top: 25px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.student {
+    width: 40%;
+}
+
+.isPresent {
+    width: 60%;
+}
+
+.check {
+    transform: scale(1.5);
+}
+
+#saveBtn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
